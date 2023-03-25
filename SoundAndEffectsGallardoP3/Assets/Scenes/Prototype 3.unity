@@ -492,11 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a0d6ae72f6ab1459c344c3c5c0308b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefabs:
-  - {fileID: 6551771229006432497, guid: ff5f6297ac5d57546a2eb0786f42c6aa, type: 3}
-  - {fileID: 2017309839718700023, guid: 1f19fba26ca32984c92e79bbac837871, type: 3}
-  - {fileID: 2531222216078215706, guid: 9256b8c74cb246d48903057b428f2c8b, type: 3}
-  - {fileID: 713382335580669888, guid: 1595933719679504b82abba1004c1b0f, type: 3}
+  obstaclePrefabs: []
 --- !u!4 &554942643
 Transform:
   m_ObjectHideFlags: 0
@@ -654,51 +650,6 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
   m_PrefabInstance: {fileID: 1518236244}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1451933871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1451933873}
-  - component: {fileID: 1451933872}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1451933872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451933871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d226854b771d4c4eb959e88ae088dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
---- !u!4 &1451933873
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451933871}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7017515, y: -4.4399834, z: 13.722063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1518236244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -777,12 +728,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935c27e0f46d1d847bcbc0b71c001542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 750
-  gravityModifier: 2
+  jumpForce: 500
+  gravityModifier: 1.5
   isOnGround: 1
-  doubleJumpUsed: 0
-  doubleJumpForce: 375
-  doubleSpeed: 0
   gameOver: 0
   explosionParticle: {fileID: 1839472510}
   dirtParticle: {fileID: 1004902981}
